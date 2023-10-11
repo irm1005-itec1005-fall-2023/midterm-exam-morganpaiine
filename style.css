@@ -44,7 +44,7 @@ body {
 
 .card {
   background-color: #fff;
-  border-radius: 25px;
+  border-radius: 10px;
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -80,14 +80,15 @@ body {
   font-weight: 800;
 }
 
-.buy-now {
+.buy-now button{
+  align-items: center;
   background-color: #7f5539;
-  color: black;
-  border: none;
+  color: white;
+  border: 0;
+  width: 300px;
+  margin: 20px;
+  margin-left: 3rem;
   padding: 10px 20px;
-  margin: 15px;
-  border-radius: 3px;
+  border-radius: 10px;
   text-align: center;
-  display: inline-block;
-
 }
