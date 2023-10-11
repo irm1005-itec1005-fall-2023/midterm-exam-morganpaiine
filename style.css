@@ -39,55 +39,55 @@ body {
 .container {
   background-color:blanchedalmond;
   margin: 0px auto 0px auto;
+  padding: 90px;
 }
 
 .card {
   background-color: #fff;
+  border-radius: 25px;
   display:flex;
   flex-direction: column;
   justify-content: center;
-  border-radius: 25px 25px 25px 25px;
-  border: none;
   margin: auto;
-  padding: 10px;
-  width: 400px
+  width: 400px;
 }
 
 .coffee-img {
-  border-radius: 40px 40px 40px 40px;
-  object-fit:contain;
+  object-fit: cover;
 }
 
 .subtitle {
+  padding-left: 20px;
   line-height: 35pt;
-  text-indent: 1em;
-  color: #7f5539;
+  color: #7f5539
 }
 
 .main-title {
+  padding-left: 20px;
   line-height: 37pt;
-  text-indent: 1em ;
-  color: #7f5539;
+  color: #7f5539
 }
 
 .main-text {
-  color: #b08968;
-  text-indent: 1em;
+  padding-left: 20px;
+  color: #b08968
 }
 
 .price {
+  padding-left: 20px;
   color: #7f5539;
   font-size: 45px;
   font-weight: 800;
 }
 
 .buy-now {
-  background-color: #9c6644;
-  color: #b08968;
-  padding: 10px, 20px;
-  border-radius: 25px;
+  background-color: #7f5539;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 3px;
   text-align: center;
   display: inline-block;
-  margin:10px;
-  font-size: 16px;
+
 }
